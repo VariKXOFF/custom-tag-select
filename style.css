@@ -1,0 +1,30 @@
+body,
+p {
+    margin: 0;
+}
+.custom-tag-select {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+custom-select {
+    width: 250px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.select__option {
+    width: 250px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    top: 24px;
+    right: -1px;
+    display: none;
+}
